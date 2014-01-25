@@ -84,7 +84,7 @@ $mobile-first:          true!default;
 /**
  * Set the spacing between your grid items.
  */
-$gutter:                24px!default;
+$gutter:                18px!default;
 
 
 /**
@@ -238,6 +238,7 @@ $class-type:            unquote(".");
      */
     #{$class-type}grid__item{
         display:inline-block;           /* [1] */
+		float: left;					/* adds items to one line */
         padding-left:$gutter;           /* [2] */
         vertical-align:top;             /* [3] */
         @if $mobile-first == true{

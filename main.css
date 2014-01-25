@@ -1,0 +1,29 @@
+/*------------------------------------*\
+    $MAIN STYLE SHEET SCSS SAMPLING
+\*------------------------------------*/
+/*------------------------------------*\
+    $Defining Variables
+\*------------------------------------*/
+/*for margins*/
+/*------------------------------------*\
+    $Styling
+\*------------------------------------*/
+html {
+  font: 0.75em/1.5 sans-serif;
+  background-color: #f9f9f9;
+  color: #444; }
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+  color: #999999;
+  padding: 0 18px; }
+
+.demo {
+  background-color: red;
+  padding: 18px;
+  color: #fff; }
+
+p {
+  margin: 0;
+  margin-bottom: 18px; }

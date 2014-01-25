@@ -1,0 +1,45 @@
+/*------------------------------------*\
+    $MAIN STYLE SHEET SCSS SAMPLING
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+    $Defining Variables
+\*------------------------------------*/
+
+$font-stack: Helvetica, sans-serif;
+
+$primery-color: #999;
+$secondary-color: red;
+
+
+$centering: 0 auto; /*for margins*/
+
+
+
+
+/*------------------------------------*\
+    $Styling
+\*------------------------------------*/
+
+html {
+font: 0.75em/1.5 sans-serif;
+background-color: #f9f9f9;
+color: #444;
+}
+
+body {
+	width: 1200px;
+	margin: $centering;
+	color: $primery-color;
+	padding: 0 18px;
+}
+.demo {
+	background-color: $secondary-color;
+	padding: 18px;
+	color: #fff;
+}
+p {
+margin: 0;
+margin-bottom: 18px;
+}
