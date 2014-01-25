@@ -19,10 +19,18 @@ body {
   color: #999999;
   padding: 0 18px; }
 
-.demo {
+.demo, .demo-second, .demo-dark {
+  padding: 18px; }
+
+.demo-second {
   background-color: red;
-  padding: 18px;
   color: #fff; }
+
+.demo-dark {
+  background-color: #191919;
+  color: red;
+  text-align: center;
+  font-size: 24px; }
 
 p {
   margin: 0;

@@ -11,6 +11,7 @@ $font-stack: Helvetica, sans-serif;
 
 $primery-color: #999;
 $secondary-color: red;
+$dark-color: #191919;
 
 
 $centering: 0 auto; /*for margins*/
@@ -34,11 +35,26 @@ body {
 	color: $primery-color;
 	padding: 0 18px;
 }
+
+
 .demo {
-	background-color: $secondary-color;
 	padding: 18px;
+}
+
+.demo-second {
+	@extend .demo;
+	background-color: $secondary-color;
 	color: #fff;
 }
+
+.demo-dark {
+	@extend .demo;
+	background-color: $dark-color;
+	color: $secondary-color;
+	text-align: center;	
+	font-size: 24px;
+}
+
 p {
 margin: 0;
 margin-bottom: 18px;
